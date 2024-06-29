@@ -14,8 +14,18 @@
     gap: 15px;
 }
 
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
 .App-header img {
-    width: 25px;
+    width: 30px;
 }
 
 .App-header input[type="text"] {
@@ -31,4 +41,57 @@
 .App-header input[type="text"]::placeholder {
     color: #fff;
     opacity: 1;
+}
+
+/* profile icon */
+
+.user-profile {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-menu button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+    background-color: #f1f1f1;
+}
+
+/* headQ */
+.headQ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.headQ ul {
+    list-style-type: none;
+}
+
+.headQ ul li {
+    width: 500px;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #148881;
+    border-radius: 4px;
+    color: #fff;
 }

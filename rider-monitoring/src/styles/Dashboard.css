@@ -115,6 +115,13 @@ table th {
     background-repeat: no-repeat;
 }
 
+.map-center-icon {
+    background: url('../assets/city-center.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* date picker */
 
 
@@ -133,7 +140,7 @@ table th {
     outline: none;
 }
 
-.select-flex button{
+.select-flex button {
     padding: 7px;
     border: none;
     width: auto;
@@ -145,5 +152,5 @@ table th {
     padding: 7px 40px !important;
     width: 100% !important;
     font-size: 15px !important;
-    
+
 }
